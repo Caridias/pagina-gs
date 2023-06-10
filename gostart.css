@@ -1,0 +1,122 @@
+
+body {
+    margin-top:5vh;
+    background: rgb(4,0,22);
+    background: linear-gradient(90deg, rgba(4,0,22,1) 0%, rgba(13,1,82,1) 57%, rgba(10,1,59,1) 100%, rgba(20,26,196,1) 100%);
+ }
+ 
+.logo{
+    display:flex;
+    justify-content:flex-start;
+    margin-top:0;
+    
+}
+.texto{
+    display:inline-flex;
+    justify-content:space-around;
+    width: 200vh;
+    background-color:white;
+    margin:0;
+    margin-top: 5px;
+    font-family: calibri;
+    font-size: 20px;
+    color: rgb(1, 1, 58);
+    padding:10px;
+    
+}
+.imagens{
+    display:inline-flex;
+    justify-content:space-around;
+    width:200vh;
+    height:250px;
+    background-color: white;
+    margin:0;
+    padding:10px;
+
+}
+
+.search-box {
+    position: absolute;
+    top: 10%;
+    left: 30%;    
+
+    background: white;
+    height: 50px;
+    padding: 10px;
+    border-radius: 40px;
+
+    display: flex;
+    cursor: pointer
+}
+
+.search-text {
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 0;
+    padding: 0;
+    transition: 0.4s;
+}
+
+.search-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box:hover>.search-text {
+    width: 100px;
+    padding-left: 20px;
+
+}
+
+.search-box:hover>.search-btn {
+    background: #312d38;
+}
+.formulario{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    width: 100%;
+    color:rgb(150, 144, 144);
+}
+form{
+    font-family:calibri;
+    font-size:20px;
+    max-width: 100vh;
+    padding: 15px;
+    border-radius:5px;
+
+    
+}
+#anexo:hover{
+    background-color:green;
+}
+input[type="text"],input [type="file"]{
+    border-radius:10px;
+    padding:10px;
+    font-size:20px;
+    width: 90vh;
+}
+input[type="submit"]{
+width: 50px;
+}
+
+button:hover{
+    background-color:green;
+    transition:0,4s;
+}
+
+
+footer{
+    background-color: rgb(252, 251, 253);
+    font-family:'calibri';
+    text-align:center;
+    
+
+}
+
